@@ -12,17 +12,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <div className="border-b pb-2">
                     <ul className="flex justify-center space-x-10 mt-2">
                         <li className="list-none">
-                            <a className="text-gray-800 font-bold hover:text-gray-400 transition-colors duration-300" href="/">
+                            <a className="text-gray-800 font-bold hover:text-gray-400 transition-colors duration-300 text-lg" href="/">
                                 Home
                             </a>
                         </li>
                         <li className="list-none">
-                            <a className="text-gray-800 font-bold hover:text-gray-400 transition-colors duration-300" href="/Resume">
+                            <a className="text-gray-800 font-bold hover:text-gray-400 transition-colors duration-300 text-lg" href="/Resume">
                                 Resume
                             </a>
                         </li>
                         <li className="list-none">
-                            <a className="text-gray-800 font-bold hover:text-gray-400 transition-colors duration-300" href="/Project">
+                            <a className="text-gray-800 font-bold hover:text-gray-400 transition-colors duration-300 text-lg" href="/Project">
                                 Project
                             </a>
                         </li>

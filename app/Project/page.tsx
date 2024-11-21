@@ -7,11 +7,11 @@ export default function Project() {
             <div className="grid grid-cols-3 grid-rows-3 gap-4 justify-items-center items-center">
                 <Link className="flex flex-col w-full h-full  justify-center items-start border rounded " href="/PHP_portfolio">
                     <img src="/img/PHP Portfolio.png" alt="" className="w-full h-32 object-cover border-b" />
-                    <h1 className="ml-5 font-bold mt-3">PHP Portfolio</h1>
-                    <a className="ml-5 mt-1 text-blue-500 hover:text-blue-300" href="https://github.com/leeys951006/PHP-portfolio.git">
+                    <h1 className="ml-5 font-bold mt-3 text-2xl">PHP Portfolio</h1>
+                    {/* <a className="ml-5 mt-1 text-blue-500 hover:text-blue-300" href="https://github.com/leeys951006/PHP-portfolio.git" target="_blank" rel="noopener noreferrer">
                         GitHub
-                    </a>
-                    <div className="flex ml-5 mt-3">
+                    </a> */}
+                    <div className="flex ml-5 mt-5">
                         <p className="bg-yellow-400 font-bold rounded-full p-1 text-xs">PHP</p>
                         <p className="bg-yellow-400 font-bold rounded-full p-1 text-xs ml-1">Bootstrap</p>
                     </div>
@@ -25,16 +25,16 @@ export default function Project() {
                 </Link>
                 <Link className="flex flex-col w-full h-full  justify-center items-start border rounded " href="/Next.js">
                     <img src="/img/Next.js Portfolio.png" alt="" className="w-full h-32 object-cover border-b" />
-                    <h1 className="ml-5 font-bold mt-3">Next.js Portfolio</h1>
+                    <h1 className="ml-5 font-bold mt-3 text-2xl">Next.js Portfolio</h1>
                     <div className="flex">
-                        <a className="ml-5 mt-1 text-blue-500 hover:text-blue-300" href="https://github.com/leeys951006/Portfolio">
+                        {/* <a className="ml-5 mt-1 text-blue-500 hover:text-blue-300" href="https://github.com/leeys951006/Portfolio" target="_blank" rel="noopener noreferrer">
                             GitHub
                         </a>
-                        <a className="ml-2 mt-1 text-blue-500 hover:text-blue-300" href="https://nifty-mountain-1e6.notion.site/7607604066474dfc80b5f5078713cac3?pvs=4">
+                        <a className="ml-2 mt-1 text-blue-500 hover:text-blue-300" href="https://nifty-mountain-1e6.notion.site/7607604066474dfc80b5f5078713cac3?pvs=4" target="_blank" rel="noopener noreferrer">
                             Notion
-                        </a>
+                        </a> */}
                     </div>
-                    <div className="flex ml-5 mt-3">
+                    <div className="flex ml-5 mt-5">
                         <p className="bg-yellow-400 font-bold rounded-full p-1 text-xs">Tailwind CSS</p>
                         <p className="bg-yellow-400 font-bold rounded-full p-1 text-xs ml-1">TypeScript</p>
                     </div>
@@ -49,16 +49,16 @@ export default function Project() {
                 </Link>
                 <Link className="flex flex-col w-full h-full  justify-center items-start border rounded " href="/PlanT">
                     <img src="/img/PlanT main.png" alt="" className="w-full h-32 object-cover border-b" />
-                    <h1 className="ml-5 font-bold mt-3">여행 공유 사이트</h1>
+                    <h1 className="ml-5 font-bold mt-3 text-2xl">여행 공유 사이트</h1>
                     <div className="flex">
-                        <a className="ml-5 mt-1 text-blue-500 hover:text-blue-300" href="https://github.com/leeys951006/Travel">
+                        {/* <a className="ml-5 mt-1 text-blue-500 hover:text-blue-300" href="https://github.com/leeys951006/Travel" target="_blank" rel="noopener noreferrer">
                             GitHub
                         </a>
-                        <a className="ml-2 mt-1 text-blue-500 hover:text-blue-300" href="https://nifty-mountain-1e6.notion.site/Plan-T-decd39d6377342d0abfd94398062880e?pvs=4">
+                        <a className="ml-2 mt-1 text-blue-500 hover:text-blue-300" href="https://nifty-mountain-1e6.notion.site/Plan-T-decd39d6377342d0abfd94398062880e?pvs=4" target="_blank" rel="noopener noreferrer">
                             Notion
-                        </a>
+                        </a> */}
                     </div>
-                    <div className="flex ml-5 mt-3">
+                    <div className="flex ml-5 mt-5">
                         <p className="bg-yellow-400 font-bold rounded-full p-1 text-xs">Tailwind CSS</p>
                         <p className="bg-yellow-400 font-bold rounded-full p-1 text-xs ml-1">TypeScript</p>
                         <p className="bg-yellow-400 font-bold rounded-full p-1 text-xs ml-1">Python</p>
@@ -76,16 +76,16 @@ export default function Project() {
                 </Link>
                 <Link className="flex flex-col w-full h-full  justify-center items-start border rounded " href="/Tonic">
                     <img src="/img/Tonic.png" alt="" className="w-full h-32 object-cover border-b" />
-                    <h1 className="ml-5 font-bold mt-3">영양제 조절 사이트</h1>
+                    <h1 className="ml-5 font-bold mt-3 text-2xl">영양제 조절 사이트</h1>
                     <div className="flex">
-                        <a className="ml-5 mt-1 text-blue-500 hover:text-blue-300" href="https://github.com/leeys951006/Tonic.git">
+                        {/* <a className="ml-5 mt-1 text-blue-500 hover:text-blue-300" href="https://github.com/leeys951006/Tonic.git" target="_blank" rel="noopener noreferrer">
                             GitHub
                         </a>
-                        <a className="ml-2 mt-1 text-blue-500 hover:text-blue-300" href="https://nifty-mountain-1e6.notion.site/f11ef4686e184f92a7c75d82cd3b35e6?pvs=4">
+                        <a className="ml-2 mt-1 text-blue-500 hover:text-blue-300" href="https://nifty-mountain-1e6.notion.site/f11ef4686e184f92a7c75d82cd3b35e6?pvs=4" target="_blank" rel="noopener noreferrer">
                             Notion
-                        </a>
+                        </a> */}
                     </div>
-                    <div className="flex ml-5 mt-3">
+                    <div className="flex ml-5 mt-5">
                         <p className="bg-yellow-400 font-bold rounded-full p-1 text-xs">HTML</p>
                         <p className="bg-yellow-400 font-bold rounded-full p-1 text-xs ml-1">CSS</p>
                         <p className="bg-yellow-400 font-bold rounded-full p-1 text-xs ml-1">JavaScript</p>
@@ -101,16 +101,16 @@ export default function Project() {
                 </Link>
                 <Link className="flex flex-col w-full h-full  justify-center items-start border rounded " href="/Stress">
                     <img src="/img/Stress.png" alt="" className="w-full h-32 object-cover border-b" />
-                    <h1 className="ml-5 font-bold mt-3">스트레스 블로그</h1>
+                    <h1 className="ml-5 font-bold mt-3 text-2xl">스트레스 블로그</h1>
                     <div className="flex">
-                        <a className="ml-5 mt-1 text-blue-500 hover:text-blue-300" href="https://github.com/leeys951006/blognew.git">
+                        {/* <a className="ml-5 mt-1 text-blue-500 hover:text-blue-300" href="https://github.com/leeys951006/blognew.git" target="_blank" rel="noopener noreferrer">
                             GitHub
                         </a>
-                        <a className="ml-2 mt-1 text-blue-500 hover:text-blue-300" href="https://nifty-mountain-1e6.notion.site/blog-24-05-24-24-07-07-192fa48e9c8c4b639f3b85e51022c73a?pvs=4">
+                        <a className="ml-2 mt-1 text-blue-500 hover:text-blue-300" href="https://nifty-mountain-1e6.notion.site/blog-24-05-24-24-07-07-192fa48e9c8c4b639f3b85e51022c73a?pvs=4" target="_blank" rel="noopener noreferrer">
                             Notion
-                        </a>
+                        </a> */}
                     </div>
-                    <div className="flex ml-5 mt-3">
+                    <div className="flex ml-5 mt-5">
                         <p className="bg-yellow-400 font-bold rounded-full p-1 text-xs">HTML</p>
                         <p className="bg-yellow-400 font-bold rounded-full p-1 text-xs ml-1">CSS</p>
                         <p className="bg-yellow-400 font-bold rounded-full p-1 text-xs ml-1">JavaScript</p>
@@ -125,16 +125,16 @@ export default function Project() {
                 </Link>
                 <Link className="flex flex-col w-full h-full  justify-center items-start border rounded " href="/Poketmon">
                     <img src="/img/Poketmon.png" alt="" className="w-full h-32 object-cover border-b" />
-                    <h1 className="ml-5 font-bold mt-3">랜덤 포켓몬</h1>
+                    <h1 className="ml-5 font-bold mt-3 text-2xl">랜덤 포켓몬</h1>
                     <div className="flex">
-                        <a className="ml-5 mt-1 text-blue-500 hover:text-blue-300" href="https://github.com/leeys951006/Pokemon.git">
+                        {/* <a className="ml-5 mt-1 text-blue-500 hover:text-blue-300" href="https://github.com/leeys951006/Pokemon.git" target="_blank" rel="noopener noreferrer">
                             GitHub
                         </a>
-                        <a className="ml-2 mt-1 text-blue-500 hover:text-blue-300" href="https://nifty-mountain-1e6.notion.site/24-05-11-24-05-13-5ec60ad525b14e139fff5f5ba9da24da?pvs=4">
+                        <a className="ml-2 mt-1 text-blue-500 hover:text-blue-300" href="https://nifty-mountain-1e6.notion.site/24-05-11-24-05-13-5ec60ad525b14e139fff5f5ba9da24da?pvs=4" target="_blank" rel="noopener noreferrer">
                             Notion
-                        </a>
+                        </a> */}
                     </div>
-                    <div className="flex ml-5 mt-3">
+                    <div className="flex ml-5 mt-5">
                         <p className="bg-yellow-400 font-bold rounded-full p-1 text-xs">JavaScript</p>
                     </div>
                     <div className="flex mt-1 ml-5">
@@ -147,16 +147,16 @@ export default function Project() {
                 </Link>
                 <Link className="flex flex-col w-full h-full  justify-center items-start border rounded " href="/ERP">
                     <img src="/img/ERP_main.png" alt="" className="w-full h-32 object-cover border-b" />
-                    <h1 className="ml-5 font-bold mt-3">ERP System</h1>
+                    <h1 className="ml-5 font-bold mt-3 text-2xl">ERP System</h1>
                     <div className="flex">
-                        <a className="ml-5 mt-1 text-blue-500 hover:text-blue-300" href="https://github.com/leeys951006/KDT-IaaS-2-ProjectA-1team.git">
+                        {/* <a className="ml-5 mt-1 text-blue-500 hover:text-blue-300" href="https://github.com/leeys951006/KDT-IaaS-2-ProjectA-1team.git" target="_blank" rel="noopener noreferrer">
                             GitHub
                         </a>
-                        <a className="ml-2 mt-1 text-blue-500 hover:text-blue-300" href="https://kongukjae.notion.site/031dbe5061414b209e756b27124b3abf?pvs=4">
+                        <a className="ml-2 mt-1 text-blue-500 hover:text-blue-300" href="https://kongukjae.notion.site/031dbe5061414b209e756b27124b3abf?pvs=4" target="_blank" rel="noopener noreferrer">
                             Notion
-                        </a>
+                        </a> */}
                     </div>
-                    <div className="flex ml-5 mt-3">
+                    <div className="flex ml-5 mt-5">
                         <p className="bg-yellow-400 font-bold rounded-full p-1 text-xs">Tailwind CSS</p>
                         <p className="bg-yellow-400 font-bold rounded-full p-1 text-xs ml-1">TypeScript</p>
                         <p className="bg-yellow-400 font-bold rounded-full p-1 text-xs ml-1">Python</p>
